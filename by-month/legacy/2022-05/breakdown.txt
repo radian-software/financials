@@ -14,3 +14,7 @@ Riju :: $35.36
     LCUs :: $0.05
     Load Balancer :: $5.64
   S3 :: $0.03
+
+COMMENTARY: This is the last month where Riju was hosted on my
+personal AWS account, so much lower costs, and they should be dropping
+to zero after this.
