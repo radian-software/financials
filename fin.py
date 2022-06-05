@@ -18,15 +18,15 @@ import boto3
 
 logging.basicConfig(level=logging.INFO)
 
-ROOT = pathlib.Path(__file__).parent
+ROOT = pathlib.Path(__file__).parent / "by-month"
 
 
 def die(msg):
     raise AssertionError(msg)
 
 
-def get_csv(year, month, force_download=False):
-    target_dir = ROOT / f"{year}-{month:02d}"
+def get_csv(basedir, year, month, force_download=False):
+    target_dir = basedir / f"{year}-{month:02d}"
     logging.info(f"Using base directory {target_dir}")
     target_dir.mkdir(exist_ok=True)
     latest_csv = target_dir / "latest.csv"
@@ -310,16 +310,19 @@ def main():
     parser.add_argument("date")
     parser.add_argument("-f", "--force-download", action="store_true")
     parser.add_argument("-w", "--write", action="store_true")
+    parser.add_argument("-b", "--basedir", type=str, default=ROOT)
     args = parser.parse_args()
+    basedir = pathlib.Path(args.basedir).resolve()
     year, month = map(int, args.date.split("-"))
     billing_month = f"{year}-{month:02d}"
-    csv_path = get_csv(year, month, force_download=args.force_download)
+    csv_path = get_csv(basedir, year, month, force_download=args.force_download)
     taxonomy = classify_costs(csv_path, billing_month=billing_month)
     print_taxonomy(taxonomy)
     if args.write:
         riju_taxonomy = taxonomy["categories"]["AWS"]
         riju_taxonomy["categories"] = {"Riju": riju_taxonomy["categories"]["Riju"]}
-        target_dir = ROOT / f"{year}-{month:02d}"
+        target_dir = basedir / f"{year}-{month:02d}"
+        target_dir.mkdir(exist_ok=True)
         with open(target_dir / "breakdown.txt", "w") as f:
             print_taxonomy(riju_taxonomy, file=f)
 
