@@ -161,6 +161,16 @@ def classify_line_item(item, billing_month=None, full=False):
             "i-0df1818af33ea1aa9",
         }:
             project = "Riju"
+    if billing_month == "2022-05":
+        # EC2 instance restore that did not inherit tags properly.
+        if service == "AmazonEC2" and resource == "vol-0a2eb37d27ac811d7":
+            project = "Corona"
+        # ECR costs that somehow were not tagged correctly by AWS.
+        elif resource and "riju" in resource.lower():
+            project = "Riju"
+        # Billing reports were not previously tagged with cost.
+        elif resource and "billing" in resource.lower():
+            project = "Billing"
     # AWS does not let you put tags on a public ECR repository,
     # yippee.
     if service == "AmazonECRPublic" and resource.endswith("repository/riju"):
