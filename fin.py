@@ -72,7 +72,7 @@ def get_csv(basedir, year, month, force_download=False):
             "LastModified"
         ].strftime("%Y-%m-%d")
         logging.info(
-            f"Download s3://{bucket}/{report_path} to {target_dir.relative_to(ROOT)}/{basename}.csv.gz"
+            f"Download s3://{bucket}/{report_path} to {target_dir.relative_to(basedir)}/{basename}.csv.gz"
         )
         s3.download_file(bucket, report_path, f"{target_dir}/{basename}.csv.gz")
         logging.info(f"Decompress {basename}.csv.gz")
