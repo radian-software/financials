@@ -171,6 +171,10 @@ def classify_line_item(item, billing_month=None, full=False):
         # Billing reports were not previously tagged with cost.
         elif resource and "billing" in resource.lower():
             project = "Billing"
+    if billing_month == "2022-06":
+        # Same as last month.
+        if service == "AmazonEC2" and resource == "vol-0a2eb37d27ac811d7":
+            project = "Corona"
     # AWS does not let you put tags on a public ECR repository,
     # yippee.
     if service == "AmazonECRPublic" and resource.endswith("repository/riju"):
