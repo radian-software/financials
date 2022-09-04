@@ -7,7 +7,7 @@ spent on what people expected it to be spent on.
 
 Here is the ledger showing all expenses and revenue of Radian LLC,
 which I update on more or less a quarterly basis:
-* <https://nextcloud.radian.codes/s/mpyJkkgjNSR2KtD>
+* [Radian LLC Financial Records](records.xlsx)
 
 In subdirectories of this repository you can find detailed cost
 breakdowns of AWS spending for each month.

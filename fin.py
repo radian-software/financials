@@ -104,11 +104,14 @@ def get_tax_key(item):
 
 def embed_taxes(items):
     tax_items = collections.defaultdict(list)
+    credit_items = collections.defaultdict(list)
     usage_items = collections.defaultdict(list)
     for item in items:
         item_type = item["lineItem/LineItemType"]
         if item_type == "Tax":
             tax_items[get_tax_key(item)].append(item)
+        elif item_type == "Credit":
+            credit_items[get_tax_key(item)].append(item)
         elif item_type == "Usage":
             usage_items[get_tax_key(item)].append(item)
         else:
@@ -121,6 +124,24 @@ def embed_taxes(items):
         tax_multiplier = (tax_cost + usage_cost) / usage_cost
         for item in usage_items[key]:
             item["lineItem/UnblendedCost"] *= tax_multiplier
+    # Credit is not distributed evenly, have to compute the total and
+    # apply to everything.
+    total_credit_amount = sum(
+        -item["lineItem/UnblendedCost"]
+        for key in credit_items
+        for item in credit_items[key]
+    )
+    total_usage_cost_after_tax = sum(
+        item["lineItem/UnblendedCost"]
+        for key in usage_items
+        for item in usage_items[key]
+    )
+    credit_multiplier = (
+        total_usage_cost_after_tax - total_credit_amount
+    ) / total_usage_cost_after_tax
+    for key in usage_items:
+        for item in usage_items[key]:
+            item["lineItem/UnblendedCost"] *= credit_multiplier
     return [item for group in usage_items.values() for item in group]
 
 
@@ -214,8 +235,14 @@ def classify_line_item(item, billing_month=None, full=False):
                 # purposes, so we just have to know what we were using
                 # them for. (Leaving them uncategorized for 2021-07
                 # though.)
-                if billing_month != "2021-07":
+                if (
+                    billing_month != "2021-07"
+                    and item["bill/PayerAccountId"] == "084011155226"
+                ):
                     project = "Corona"
+                else:
+                    project = "EIP"
+                    category = []
             elif "EBS:VolumeUsage" in usage_type:
                 category.append("EBS Volume")
                 category.extend(["EBS Volume", re.sub(r"^.+\.", "", usage_type)])
