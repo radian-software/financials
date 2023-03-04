@@ -1,3 +1,7 @@
+EIP :: $3.71
+Nextcloud :: $0.72
+  EC2 :: $0.72
+    EBS Snapshot :: $0.72
 Riju :: $87.76
   EC2 :: $85.94
     EBS Snapshot :: $0.43

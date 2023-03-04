@@ -1,3 +1,9 @@
+EIP :: $3.87
+Nextcloud :: $0.21
+  EC2 :: $0.21
+    EBS Snapshot :: $0.19
+    Instance :: $0.02
+      t2.small :: $0.02
 Riju :: $59.82
   EC2 :: $58.78
     EBS Snapshot :: $3.17
@@ -8,3 +14,6 @@ Riju :: $59.82
       t3.large :: $47.90
   ECR :: $1.04
     Storage :: $1.04
+Tinyku :: $0.77
+  EC2 :: $0.77
+    EBS Snapshot :: $0.77

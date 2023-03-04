@@ -351,7 +351,6 @@ def main():
     print_taxonomy(taxonomy)
     if args.write:
         riju_taxonomy = taxonomy["categories"]["AWS"]
-        riju_taxonomy["categories"] = {"Riju": riju_taxonomy["categories"]["Riju"]}
         target_dir = basedir / f"{year}-{month:02d}"
         target_dir.mkdir(exist_ok=True)
         with open(target_dir / "breakdown.txt", "w") as f:
