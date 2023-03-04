@@ -1,0 +1,10 @@
+Riju :: $80.59
+  EC2 :: $78.80
+    EBS Snapshot :: $0.42
+    EBS Volume :: $11.71
+      EBS Volume :: $11.71
+        gp3 :: $11.71
+    Instance :: $66.66
+      t3.large :: $66.66
+  ECR :: $1.78
+    Storage :: $1.78
