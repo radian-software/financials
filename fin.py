@@ -3,7 +3,6 @@
 import argparse
 import collections
 import csv
-import decimal
 import gzip
 import io
 import json
