@@ -1,0 +1,20 @@
+EIP :: $3.71
+Nextcloud :: $2.82
+  EC2 :: $2.82
+    EBS Snapshot :: $0.89
+    EBS Volume :: $1.92
+      EBS Volume :: $1.92
+        gp2 :: $1.92
+Riju :: $89.50
+  EC2 :: $87.51
+    Data Transfer :: $0.01
+    EBS Snapshot :: $0.44
+    EBS Volume :: $13.25
+      EBS Volume :: $13.25
+        gp2 :: $0.96
+        gp3 :: $12.29
+    Instance :: $73.80
+      t3.large :: $73.80
+  ECR :: $1.89
+    Storage :: $1.89
+  S3 :: $0.11

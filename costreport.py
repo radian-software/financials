@@ -2,7 +2,7 @@
 
 import argparse
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from decimal import Decimal
 import json
 import re
@@ -11,7 +11,7 @@ import sys
 
 @dataclass
 class Transaction:
-    serial: int
+    serial: Decimal
     account: str
     date: datetime
     amount: Decimal
@@ -27,7 +27,7 @@ class Transaction:
             amount=Decimal(txn["amt"].replace(",", "")),
             description=txn["desc"],
             account="BlueVine",
-            serial=cls.serial_counter,
+            serial=Decimal(cls.serial_counter),
         )
 
     @classmethod
@@ -38,7 +38,7 @@ class Transaction:
             amount=-Decimal(txn["amount"]),
             description=txn["description"],
             account="SF Fire CU",
-            serial=cls.serial_counter,
+            serial=Decimal(cls.serial_counter),
         )
 
     @property
@@ -85,6 +85,12 @@ class Transaction:
                 return ["Publishing", "Chrome Web Store"]
             if self.description == "AWS" or "Amazon web services" in self.description:
                 return ["Web hosting", "Amazon Web Services"]
+            if self.description.startswith("AWS: "):
+                return [
+                    "Web hosting",
+                    "Amazon Web Services",
+                    self.description.removeprefix("AWS: "),
+                ]
             if self.description == "Digitalocean":
                 return ["Web hosting", "DigitalOcean"]
             if "COMPANY: FRANTECH" in self.description:
@@ -117,6 +123,50 @@ class Transaction:
                 return ["Revenue", "Donations", "Ko-Fi"]
         raise RuntimeError(f"Uncategorized transaction: {self}")
 
+    def split(self):
+        if self.category[-1] == "Amazon Web Services":
+            billable_month = (self.date - timedelta(days=15)).strftime("%Y-%m")
+            if billable_month == "2022-04":
+                return [
+                    Transaction(
+                        date=self.date,
+                        amount=self.amount,
+                        description="AWS: Tinyku",
+                        account=self.account,
+                        serial=Decimal(self.serial) + Decimal("0.1"),
+                    )
+                ]
+            with open(f"by-month/{billable_month}/breakdown.txt") as f:
+                txns = []
+                remaining_amount = -self.amount
+                idx = 0
+                biggest_idx = 0
+                biggest_amt = 0
+                for line in f:
+                    if match := re.match(r"([^ ]+) :: \$([0-9.]+)", line):
+                        project = match.group(1)
+                        amount = Decimal(match.group(2))
+                        txns.append(
+                            Transaction(
+                                date=self.date,
+                                amount=-amount,
+                                description=f"AWS: {project}",
+                                account=self.account,
+                                serial=Decimal(self.serial)
+                                + Decimal("0.1") * (idx + 1),
+                            )
+                        )
+                        if amount > biggest_amt:
+                            biggest_idx = idx
+                            biggest_amt = amount
+                        idx += 1
+                        remaining_amount -= amount
+                assert abs(remaining_amount) < 0.05, remaining_amount
+                if remaining_amount != 0:
+                    txns[biggest_idx].amount -= remaining_amount
+                return txns
+        return [self]
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -132,19 +182,23 @@ def main():
     txns.extend(map(Transaction.from_sffire, sffire_txns))
     running_balance = Decimal("0.00")
     last_month = None
-    for txn in txns:
-        if txn.should_ignore:
+    for full_txn in txns:
+        if full_txn.should_ignore:
             continue
-        cur_month = txn.date.year, txn.date.month
-        if cur_month != last_month:
-            print()
-            month_str = txn.date.strftime("%Y %B")
-            padding = "=" * (60 - len(month_str))
-            print(f"=== {month_str} {padding}")
-            print()
-            last_month = cur_month
-        running_balance += txn.amount
-        print(f"${running_balance:8}    ${txn.amount:7}    {txn.category[-1]}")
+        for txn in full_txn.split():
+            if txn.should_ignore:
+                continue
+            cur_month = txn.date.year, txn.date.month
+            if cur_month != last_month:
+                print()
+                month_str = txn.date.strftime("%Y %B")
+                padding = "=" * (60 - len(month_str))
+                print(f"=== {month_str} {padding}")
+                print()
+                last_month = cur_month
+            running_balance += txn.amount
+            cat_str = " - ".join(reversed(txn.category))
+            print(f"${running_balance:8}    ${txn.amount:7}    {cat_str}")
 
 
 if __name__ == "__main__":

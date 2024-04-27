@@ -285,6 +285,10 @@ def classify_line_item(item, billing_month=None, full=False):
             category = ["CloudWatch"]
         elif service == "awskms":
             category = ["KMS"]
+        elif service == "AmazonVPC":
+            category = ["VPC"]
+            if "Analysis-Runs" in usage_type:
+                category.append("Reachability Analyzer")
     if not project:
         category.extend(
             [
