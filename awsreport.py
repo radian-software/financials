@@ -17,7 +17,7 @@ import boto3
 
 logging.basicConfig(level=logging.INFO)
 
-ROOT = pathlib.Path(__file__).parent / "by-month"
+ROOT = pathlib.Path(__file__).parent / "aws-by-month"
 
 
 def die(msg):

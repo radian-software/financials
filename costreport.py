@@ -23,7 +23,7 @@ class Transaction:
     def from_bluevine(cls, txn):
         cls.serial_counter += 1
         return Transaction(
-            date=datetime.strptime(txn["date"], "%m/%d/%y"),
+            date=datetime.strptime(txn["date"].removeprefix("\x0c"), "%m/%d/%y"),
             amount=Decimal(txn["amt"].replace(",", "")),
             description=txn["desc"],
             account="BlueVine",
@@ -51,12 +51,12 @@ class Transaction:
             return True
         if self.description in {"Outbound Check", "Check Deposit"} and self.serial in {
             37,
-            43,
+            48,
         }:
             return True
-        if "FRANTECH" in self.description and self.serial in {49, 50}:
+        if abs(self.amount) == Decimal("389.49") and self.serial in {45, 52}:
             return True
-        if "Shared branch Deposit" in self.description and self.serial == 47:
+        if "FRANTECH" in self.description and self.serial in {54, 55}:
             return True
         return False
 
@@ -75,6 +75,8 @@ class Transaction:
                 return ["Business operations", "Email", "Google Workspace"]
             if "USPS CHANGE OF ADDRESS" in self.description:
                 return ["Business operations", "Postal service", "Change of address"]
+            if "POS Card purchase USPS PO" in self.description:
+                return ["Business operations", "Postal service", "Postage"]
             if "CRYPTPAD-PERSONAL" in self.description:
                 return ["Business operations", "Document hosting", "CryptPad"]
             if "PIKAPODS.COM" in self.description:
@@ -95,10 +97,12 @@ class Transaction:
                 return ["Web hosting", "DigitalOcean"]
             if "COMPANY: FRANTECH" in self.description:
                 return ["Web hosting", "Frantech"]
-            if "RAILWAY.APP" in self.description:
+            if "RAILWAY.APP" in self.description or "HTTPSRAILWAY" in self.description:
                 return ["Web hosting", "Railway"]
             if "NAME-CHEAP.COM" in self.description:
                 return ["Web hosting", "Namecheap"]
+            if "LINODE . AKAMAI" in self.description:
+                return ["Web hosting", "Linode"]
             if (
                 self.description == "California Secretary Of State"
                 and self.amount == -20
@@ -136,7 +140,7 @@ class Transaction:
                         serial=Decimal(self.serial) + Decimal("0.1"),
                     )
                 ]
-            with open(f"by-month/{billable_month}/breakdown.txt") as f:
+            with open(f"aws-by-month/{billable_month}/breakdown.txt") as f:
                 txns = []
                 remaining_amount = -self.amount
                 idx = 0
