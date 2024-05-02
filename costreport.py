@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 
 import argparse
+from collections import defaultdict
 from dataclasses import dataclass
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from decimal import Decimal
 import json
+from pathlib import Path
 import re
 import sys
+
+
+@dataclass
+class Note:
+    contents: str
+    date: datetime
 
 
 @dataclass
@@ -172,6 +180,22 @@ class Transaction:
         return [self]
 
 
+def read_aws_notes() -> list[Note]:
+    notes = []
+    for entry in Path("aws-by-month").iterdir():
+        breakdown = entry / "breakdown.txt"
+        if not breakdown.is_file():
+            continue
+        month = datetime.strptime(entry.name, "%Y-%m")
+        with open(breakdown) as f:
+            text = f.read()
+        _, *extra = text.split("\n\n", maxsplit=1)
+        if not extra:
+            continue
+        notes.append(Note(contents=extra[0].strip(), date=month))
+    return notes
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--bluevine-txns", required=True)
@@ -184,6 +208,11 @@ def main():
     txns: list[Transaction] = []
     txns.extend(map(Transaction.from_bluevine, bluevine_txns))
     txns.extend(map(Transaction.from_sffire, sffire_txns))
+    notes: list[Note] = []
+    notes.extend(read_aws_notes())
+    notes_dict = defaultdict(list)
+    for note in notes:
+        notes_dict[note.date.year, note.date.month].append(note)
     running_balance = Decimal("0.00")
     last_month = None
     for full_txn in txns:
@@ -197,6 +226,10 @@ def main():
                 print()
                 month_str = txn.date.strftime("%Y %B")
                 padding = "=" * (60 - len(month_str))
+                if last_notes := notes_dict[last_month]:
+                    for note in last_notes:
+                        print(note.contents)
+                        print()
                 print(f"=== {month_str} {padding}")
                 print()
                 last_month = cur_month
