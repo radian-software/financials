@@ -7,7 +7,8 @@ spent on what people expected it to be spent on.
 
 Here is the ledger showing all expenses and revenue of Radian LLC,
 which I update on more or less a quarterly basis:
-* [Radian LLC Financial Records](records.xlsx)
+* [Radian LLC Financial Records](ledger.txt)
 
-In subdirectories of this repository you can find detailed cost
-breakdowns of AWS spending for each month.
+In [a subdirectory](aws-by-month) you can find detailed cost
+breakdowns of AWS spending for each month. The ledger also has
+discussion of any interesting or confusing facts about the spending.
