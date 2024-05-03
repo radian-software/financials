@@ -1,0 +1,5 @@
+Switched from Google Workspace to Fastmail + Nextcloud for ethical
+reasons this month, it also reduces cost.
+
+Had a trial subscription for CryptPad to evaluate as replacement for
+Google Workspace. I ended up going with Nextcloud instead.

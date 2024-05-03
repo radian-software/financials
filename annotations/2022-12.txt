@@ -1,0 +1,14 @@
+Honestly couldn’t tell you why the EIP bill went down, I really wish
+Amazon actually broke these down in their billing.
+
+Forgot to turn off the Nextcloud server one time for a couple days,
+gonna add a cronjob to turn it off automatically at some point.
+
+The Tinyku charge will finally go away in January now that I’ve
+remembered to delete the EBS snapshots; the cost for Riju should go
+down a couple dollars too.
+
+I was working on migrating Riju off of AWS to BuyVM by Frantech, which
+would decrease cost significantly (especially with the free tier
+disappearing). But this did not end up materializing and I eventually
+shuttered the new instance to keep things on AWS for now.

@@ -1,5 +1,5 @@
 EIP :: $2.48
-Nextcloud :: $3.96
+Nextcloud :: $4.06
   EC2 :: $3.96
     EBS Snapshot :: $1.02
     EBS Volume :: $2.88
@@ -7,6 +7,8 @@ Nextcloud :: $3.96
         gp2 :: $2.88
     Instance :: $0.07
       t3.large :: $0.07
+  VPC :: $0.10
+    Reachability Analyzer :: $0.10
 Riju :: $89.18
   EC2 :: $87.20
     EBS Snapshot :: $0.44
@@ -19,12 +21,3 @@ Riju :: $89.18
   ECR :: $1.89
     Storage :: $1.89
   S3 :: $0.10
-Uncategorized :: $0.10
-  Uncategorized :: $0.10
-    AmazonVPC :: $0.10
-      USW1-Analysis-Runs :: $0.10
-        RunAnalysis :: $0.10
-          arn:aws:ec2:us-west-1:467416152363:network-insights-analysis/nia-09d589fd40a2a4aa4 :: $0.10
-            USW1-Analysis-Runs :: $0.10
-              RunAnalysis :: $0.10
-                arn:aws:ec2:us-west-1:467416152363:network-insights-analysis/nia-09d589fd40a2a4aa4 :: $0.10

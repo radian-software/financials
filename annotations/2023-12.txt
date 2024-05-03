@@ -1,0 +1,3 @@
+I moved Nextcloud from AWS to PikaPods for reduced price and improved
+user experience - no need to keep the server shut down all the time to
+control costs.

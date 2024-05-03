@@ -1,0 +1,4 @@
+DigitalOcean here for a new Riju re-architecture project, this time
+onto DigitalOcean's managed Kubernetes service. That is also not done
+and I have shut it down for the time being, but it is still in the
+pipeline.

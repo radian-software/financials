@@ -1,0 +1,11 @@
+
+Cost is almost zero for Nextcloud because I keep the server off when
+not in active use. The main cost is actually the Elastic IP.
+
+I turned Tinyku down in August because it wasn’t receiving active
+work, so might as well save on the costs, but turns out I forgot about
+billing for the old EBS snapshots, so it took me until December to
+delete those.
+
+I turned down Fathom after October to save on costs, because analytics
+are a nice-to-have, not a must.

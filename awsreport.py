@@ -289,6 +289,8 @@ def classify_line_item(item, billing_month=None, full=False):
             category = ["VPC"]
             if "Analysis-Runs" in usage_type:
                 category.append("Reachability Analyzer")
+                if billing_month == "2023-10":
+                    project = "Nextcloud"
     if not project:
         category.extend(
             [

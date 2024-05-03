@@ -1,0 +1,5 @@
+I’ve added a cron job to turn off Nextcloud automatically now, so
+overruns on the billing for that should stop happening finally.
+
+Managed to drive the costs below the Railway free tier threshold for
+February, so no bill for that month!

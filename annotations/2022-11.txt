@@ -1,0 +1,13 @@
+Turning off Tinyku saved an EIP.
+
+Now that Heroku is offline, we’re running Tidier, GNU ELPA Mirror, and
+Hypercast on Railway. Using Sleeping Beauty keeps the costs pretty
+controlled but I have a bit more work to do there to optimize even
+further.
+
+The Chrome Web Store verification charge was for publishing Hypercast.
+
+BlueVine is one of the worst businesses I’ve ever had to deal with, so
+switching to another bank for business checking was long overdue. We
+bank with San Francisco Fire Credit Union now and I have no complaints
+about them.

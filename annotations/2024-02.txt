@@ -1,0 +1,3 @@
+Linode here is me helping out the Dominion Strategy Wiki community by
+safely upgrading their server which is hosted there to Ubuntu 22.04
+from Ubuntu 10.04 (really).

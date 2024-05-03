@@ -180,6 +180,8 @@ class Transaction:
         return [self]
 
 
+# There turn out not to be any AWS notes to read, but I already wrote
+# the code so :P
 def read_aws_notes() -> list[Note]:
     notes = []
     for entry in Path("aws-by-month").iterdir():
@@ -196,6 +198,16 @@ def read_aws_notes() -> list[Note]:
     return notes
 
 
+def read_extra_notes() -> list[Note]:
+    notes = []
+    for entry in Path("annotations").iterdir():
+        month = datetime.strptime(entry.name, "%Y-%m.txt")
+        with open(entry) as f:
+            text = f.read().strip()
+        notes.append(Note(contents=text, date=month))
+    return notes
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--bluevine-txns", required=True)
@@ -208,8 +220,10 @@ def main():
     txns: list[Transaction] = []
     txns.extend(map(Transaction.from_bluevine, bluevine_txns))
     txns.extend(map(Transaction.from_sffire, sffire_txns))
+    txns.sort(key=lambda txn: txn.date)
     notes: list[Note] = []
     notes.extend(read_aws_notes())
+    notes.extend(read_extra_notes())
     notes_dict = defaultdict(list)
     for note in notes:
         notes_dict[note.date.year, note.date.month].append(note)
@@ -236,6 +250,10 @@ def main():
             running_balance += txn.amount
             cat_str = " - ".join(reversed(txn.category))
             print(f"${running_balance:8}    ${txn.amount:7}    {cat_str}")
+    if last_notes := notes_dict[last_month]:
+        print()
+        for note in last_notes:
+            print(note.contents)
 
 
 if __name__ == "__main__":

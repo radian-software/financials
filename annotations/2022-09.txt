@@ -1,0 +1,8 @@
+Also, this is when my small business free credits ran out on the
+corporate AWS account, so I started getting billed for Riju on AWS.
+
+Apparently there is literally no way to categorize or tag your EIP
+usage. All tags are ignored and everything is squished into a single
+combined account-wide line item on your bill. So, that’s that. Best I
+can do is say the Elastic IP charges are from two EIPs, the ones for
+Tinyku and Nextcloud.

@@ -1,0 +1,366 @@
+
+=== 2022 February ===============================================
+
+$ 1000.00    $1000.00    Capital contribution
+
+Contribution to the company from my personal assets in exchange for
+ownership stake.
+
+=== 2022 March ==================================================
+
+$ 1000.43    $   0.43    Bank account interest - Banking - Business operations
+
+=== 2022 April ==================================================
+
+$ 1001.45    $   1.02    Bank account interest - Banking - Business operations
+$  989.45    $ -12.00    Google Workspace - Email - Business operations
+
+At first I was using Google Workspace for business email. This was
+later replaced with Fastmail, which is both cheaper and more ethical.
+
+=== 2022 May ====================================================
+
+$  990.43    $   0.98    Bank account interest - Banking - Business operations
+$  978.41    $ -12.02    Tinyku - Amazon Web Services - Web hosting
+$  966.41    $ -12.00    Google Workspace - Email - Business operations
+$  866.41    $-100.00    Intellectual property
+$  820.25    $ -46.16    Namecheap - Web hosting
+$  806.25    $ -14.00    Fathom Analytics - Analytics
+$  856.25    $  50.00    GitHub Sponsors - Donations - Revenue
+$  855.15    $  -1.10    Change of address - Postal service - Business operations
+
+Legally, Radian LLC needed to pay me back in consideration for
+ownership of my intellectual property in existing projects, so that is
+what the $100 charge is for here.
+
+This is from right after I set up the AWS account, so unfortunately I
+don't have a detailed breakdown for it. Also, AWS offered me $200 in
+credits for a new business account, so there are no bills for the next
+couple months. The only thing that I was running before enabling those
+free credits was Tinyku, so that's what I credited it to here.
+
+=== 2022 June ===================================================
+
+$  843.15    $ -12.00    Google Workspace - Email - Business operations
+$  829.15    $ -14.00    Fathom Analytics - Analytics
+
+=== 2022 July ===================================================
+
+$  817.15    $ -12.00    Google Workspace - Email - Business operations
+$  803.15    $ -14.00    Fathom Analytics - Analytics
+
+=== 2022 August =================================================
+
+$  791.15    $ -12.00    Google Workspace - Email - Business operations
+$  785.97    $  -5.18    CryptPad - Document hosting - Business operations
+$  780.97    $  -5.00    Fastmail - Email - Business operations
+$  766.97    $ -14.00    Fathom Analytics - Analytics
+$  791.81    $  24.84    GitHub Sponsors - Donations - Revenue
+
+Switched from Google Workspace to Fastmail + Nextcloud for ethical
+reasons this month, it also reduces cost.
+
+Had a trial subscription for CryptPad to evaluate as replacement for
+Google Workspace. I ended up going with Nextcloud instead.
+
+=== 2022 September ==============================================
+
+$  787.17    $  -4.64    Google Workspace - Email - Business operations
+$  783.30    $  -3.87    EIP - Amazon Web Services - Web hosting
+$  783.09    $  -0.21    Nextcloud - Amazon Web Services - Web hosting
+$  723.27    $ -59.82    Riju - Amazon Web Services - Web hosting
+$  722.50    $  -0.77    Tinyku - Amazon Web Services - Web hosting
+$  708.50    $ -14.00    Fathom Analytics - Analytics
+$  728.50    $  20.00    GitHub Sponsors - Donations - Revenue
+
+Also, this is when my small business free credits ran out on the
+corporate AWS account, so I started getting billed for Riju on AWS.
+
+Apparently there is literally no way to categorize or tag your EIP
+usage. All tags are ignored and everything is squished into a single
+combined account-wide line item on your bill. So, that’s that. Best I
+can do is say the Elastic IP charges are from two EIPs, the ones for
+Tinyku and Nextcloud.
+
+=== 2022 October ================================================
+
+$  721.33    $  -7.17    EIP - Amazon Web Services - Web hosting
+$  720.50    $  -0.83    Nextcloud - Amazon Web Services - Web hosting
+$  630.05    $ -90.45    Riju - Amazon Web Services - Web hosting
+$  628.80    $  -1.25    Tinyku - Amazon Web Services - Web hosting
+$  623.80    $  -5.00    Fastmail - Email - Business operations
+$  609.80    $ -14.00    Fathom Analytics - Analytics
+$  629.80    $  20.00    GitHub Sponsors - Donations - Revenue
+
+Cost is almost zero for Nextcloud because I keep the server off when
+not in active use. The main cost is actually the Elastic IP.
+
+I turned Tinyku down in August because it wasn’t receiving active
+work, so might as well save on the costs, but turns out I forgot about
+billing for the old EBS snapshots, so it took me until December to
+delete those.
+
+I turned down Fathom after October to save on costs, because analytics
+are a nice-to-have, not a must.
+
+=== 2022 November ===============================================
+
+$  624.80    $  -5.00    Chrome Web Store - Publishing
+$  619.89    $  -4.91    EIP - Amazon Web Services - Web hosting
+$  619.33    $  -0.56    Nextcloud - Amazon Web Services - Web hosting
+$  526.55    $ -92.78    Riju - Amazon Web Services - Web hosting
+$  525.37    $  -1.18    Tinyku - Amazon Web Services - Web hosting
+$  520.37    $  -5.00    Fastmail - Email - Business operations
+$  555.11    $  34.74    GitHub Sponsors - Donations - Revenue
+$  553.11    $  -2.00    Temporary checks - Banking - Business operations
+$  548.11    $  -5.00    Account opening - Banking - Business operations
+
+Turning off Tinyku saved an EIP.
+
+Now that Heroku is offline, we’re running Tidier, GNU ELPA Mirror, and
+Hypercast on Railway. Using Sleeping Beauty keeps the costs pretty
+controlled but I have a bit more work to do there to optimize even
+further.
+
+The Chrome Web Store verification charge was for publishing Hypercast.
+
+BlueVine is one of the worst businesses I’ve ever had to deal with, so
+switching to another bank for business checking was long overdue. We
+bank with San Francisco Fire Credit Union now and I have no complaints
+about them.
+
+=== 2022 December ===============================================
+
+$  547.59    $  -0.52    Railway - Web hosting
+$  544.77    $  -2.82    EIP - Amazon Web Services - Web hosting
+$  539.88    $  -4.89    Nextcloud - Amazon Web Services - Web hosting
+$  449.83    $ -90.05    Riju - Amazon Web Services - Web hosting
+$  448.65    $  -1.18    Tinyku - Amazon Web Services - Web hosting
+$  397.49    $ -51.16    Namecheap - Web hosting
+$ 1397.49    $1000.00    Capital contribution
+$ 1392.49    $  -5.00    Fastmail - Email - Business operations
+$ 1359.49    $ -33.00    Frantech - Web hosting
+$ 1393.49    $  34.00    GitHub Sponsors - Donations - Revenue
+
+Honestly couldn’t tell you why the EIP bill went down, I really wish
+Amazon actually broke these down in their billing.
+
+Forgot to turn off the Nextcloud server one time for a couple days,
+gonna add a cronjob to turn it off automatically at some point.
+
+The Tinyku charge will finally go away in January now that I’ve
+remembered to delete the EBS snapshots; the cost for Riju should go
+down a couple dollars too.
+
+I was working on migrating Riju off of AWS to BuyVM by Frantech, which
+would decrease cost significantly (especially with the free tier
+disappearing). But this did not end up materializing and I eventually
+shuttered the new instance to keep things on AWS for now.
+
+=== 2023 January ================================================
+
+$ 1392.57    $  -0.92    Railway - Web hosting
+$ 1389.93    $  -2.64    EIP - Amazon Web Services - Web hosting
+$ 1383.11    $  -6.82    Nextcloud - Amazon Web Services - Web hosting
+$ 1295.20    $ -87.91    Riju - Amazon Web Services - Web hosting
+$ 1295.10    $  -0.10    Tinyku - Amazon Web Services - Web hosting
+$ 1290.10    $  -5.00    Fastmail - Email - Business operations
+$ 1257.10    $ -33.00    Frantech - Web hosting
+$ 1293.10    $  36.00    GitHub Sponsors - Donations - Revenue
+
+I’ve added a cron job to turn off Nextcloud automatically now, so
+overruns on the billing for that should stop happening finally.
+
+Managed to drive the costs below the Railway free tier threshold for
+February, so no bill for that month!
+
+=== 2023 February ===============================================
+
+$ 1292.44    $  -0.66    Railway - Web hosting
+$ 1288.73    $  -3.71    EIP - Amazon Web Services - Web hosting
+$ 1288.01    $  -0.72    Nextcloud - Amazon Web Services - Web hosting
+$ 1200.26    $ -87.75    Riju - Amazon Web Services - Web hosting
+$ 1195.26    $  -5.00    Fastmail - Email - Business operations
+$ 1162.26    $ -33.00    Frantech - Web hosting
+$  362.26    $-800.00    Minimum annual tax - Taxes - Government
+$  398.26    $  36.00    GitHub Sponsors - Donations - Revenue
+
+In case you didn't know, having any business in the state of
+California entails paying a $800 minimum tax even if you don't make
+any profit. Yay!
+
+=== 2023 March ==================================================
+
+$  394.92    $  -3.34    EIP - Amazon Web Services - Web hosting
+$  394.05    $  -0.87    Nextcloud - Amazon Web Services - Web hosting
+$  313.47    $ -80.58    Riju - Amazon Web Services - Web hosting
+$ 1313.47    $1000.00    Capital contribution
+$ 1308.47    $  -5.00    Fastmail - Email - Business operations
+$ 1275.47    $ -33.00    Frantech - Web hosting
+$ 1306.47    $  31.00    GitHub Sponsors - Donations - Revenue
+
+=== 2023 April ==================================================
+
+$ 1302.77    $  -3.70    EIP - Amazon Web Services - Web hosting
+$ 1301.95    $  -0.82    Nextcloud - Amazon Web Services - Web hosting
+$ 1214.31    $ -87.64    Riju - Amazon Web Services - Web hosting
+$ 1206.61    $  -7.70    Frantech - Web hosting
+$ 1201.61    $  -5.00    Fastmail - Email - Business operations
+$ 1168.61    $ -33.00    Frantech - Web hosting
+$ 1199.61    $  31.00    GitHub Sponsors - Donations - Revenue
+
+There's a new charge from Frantech here from dontbeevilmirror, an
+as-of-yet unpublished project that I have not finished yet and have
+shut down for the time being.
+
+=== 2023 May ====================================================
+
+$ 1177.04    $ -22.57    DigitalOcean - Web hosting
+$ 1173.44    $  -3.60    EIP - Amazon Web Services - Web hosting
+$ 1172.53    $  -0.91    Nextcloud - Amazon Web Services - Web hosting
+$ 1087.17    $ -85.36    Riju - Amazon Web Services - Web hosting
+$ 1079.47    $  -7.70    Frantech - Web hosting
+$ 1028.31    $ -51.16    Namecheap - Web hosting
+$ 1023.31    $  -5.00    Fastmail - Email - Business operations
+$  990.31    $ -33.00    Frantech - Web hosting
+$ 1021.31    $  31.00    GitHub Sponsors - Donations - Revenue
+$  956.31    $ -65.00    DigitalOcean - Web hosting
+
+DigitalOcean here for a new Riju re-architecture project, this time
+onto DigitalOcean's managed Kubernetes service. That is also not done
+and I have shut it down for the time being, but it is still in the
+pipeline.
+
+=== 2023 June ===================================================
+
+$  952.60    $  -3.71    EIP - Amazon Web Services - Web hosting
+$  949.71    $  -2.89    Nextcloud - Amazon Web Services - Web hosting
+$  860.19    $ -89.52    Riju - Amazon Web Services - Web hosting
+$  852.49    $  -7.70    Frantech - Web hosting
+$  847.49    $  -5.00    Fastmail - Email - Business operations
+$  814.49    $ -33.00    Frantech - Web hosting
+$  849.90    $  35.41    GitHub Sponsors - Donations - Revenue
+
+=== 2023 July ===================================================
+
+$  784.90    $ -65.00    DigitalOcean - Web hosting
+$  781.30    $  -3.60    EIP - Amazon Web Services - Web hosting
+$  778.54    $  -2.76    Nextcloud - Amazon Web Services - Web hosting
+$  691.42    $ -87.12    Riju - Amazon Web Services - Web hosting
+$  683.72    $  -7.70    Frantech - Web hosting
+$  678.72    $  -5.00    Fastmail - Email - Business operations
+$  645.72    $ -33.00    Frantech - Web hosting
+$  712.72    $  67.00    GitHub Sponsors - Donations - Revenue
+
+=== 2023 August =================================================
+
+$  707.72    $  -5.00    Railway - Web hosting
+$  642.72    $ -65.00    DigitalOcean - Web hosting
+$  639.01    $  -3.71    EIP - Amazon Web Services - Web hosting
+$  636.19    $  -2.82    Nextcloud - Amazon Web Services - Web hosting
+$  546.70    $ -89.49    Riju - Amazon Web Services - Web hosting
+$  539.00    $  -7.70    Frantech - Web hosting
+$  534.00    $  -5.00    Fastmail - Email - Business operations
+$  565.00    $  31.00    GitHub Sponsors - Donations - Revenue
+$  560.00    $  -5.00    Railway - Web hosting
+
+This month is where Railway threw a hissy-fit and deleted their free
+tier. I pointed out to them that this contradicted their prior written
+communications about the plans for that and they shot back some fairly
+unprofessional threats about terms of service and such. So, now they
+charge $5.00/month, whatever.
+
+=== 2023 September ==============================================
+
+$  495.00    $ -65.00    DigitalOcean - Web hosting
+$  491.87    $  -3.13    Nextcloud - Amazon Web Services - Web hosting
+$  402.38    $ -89.49    Riju - Amazon Web Services - Web hosting
+$  394.68    $  -7.70    Frantech - Web hosting
+$ 1394.68    $1000.00    Capital contribution
+$ 1389.68    $  -5.00    Fastmail - Email - Business operations
+$ 1420.68    $  31.00    GitHub Sponsors - Donations - Revenue
+$ 1415.68    $  -5.00    Railway - Web hosting
+
+=== 2023 October ================================================
+
+$ 1350.68    $ -65.00    DigitalOcean - Web hosting
+$ 1347.35    $  -3.33    EIP - Amazon Web Services - Web hosting
+$ 1343.00    $  -4.35    Nextcloud - Amazon Web Services - Web hosting
+$ 1255.89    $ -87.11    Riju - Amazon Web Services - Web hosting
+$ 1248.19    $  -7.70    Frantech - Web hosting
+$ 1243.19    $  -5.00    Fastmail - Email - Business operations
+$ 1259.19    $  16.00    GitHub Sponsors - Donations - Revenue
+
+=== 2023 November ===============================================
+
+$ 1254.19    $  -5.00    Railway - Web hosting
+$ 1233.50    $ -20.69    DigitalOcean - Web hosting
+$ 1231.02    $  -2.48    EIP - Amazon Web Services - Web hosting
+$ 1226.96    $  -4.06    Nextcloud - Amazon Web Services - Web hosting
+$ 1137.76    $ -89.20    Riju - Amazon Web Services - Web hosting
+$ 1130.06    $  -7.70    Frantech - Web hosting
+$ 1125.06    $  -5.00    Fastmail - Email - Business operations
+$ 1141.06    $  16.00    GitHub Sponsors - Donations - Revenue
+$ 1143.63    $   2.57    Ko-Fi - Donations - Revenue
+$ 1138.63    $  -5.00    Railway - Web hosting
+
+=== 2023 December ===============================================
+
+$ 1134.48    $  -4.15    Nextcloud - Amazon Web Services - Web hosting
+$ 1047.38    $ -87.10    Riju - Amazon Web Services - Web hosting
+$ 1039.68    $  -7.70    Frantech - Web hosting
+$  984.52    $ -55.16    Namecheap - Web hosting
+$  979.52    $  -5.00    Fastmail - Email - Business operations
+$ 1005.52    $  26.00    GitHub Sponsors - Donations - Revenue
+$  995.52    $ -10.00    PikaPods - Document hosting - Business operations
+$  990.52    $  -5.00    Railway - Web hosting
+
+I moved Nextcloud from AWS to PikaPods for reduced price and improved
+user experience - no need to keep the server shut down all the time to
+control costs.
+
+=== 2024 January ================================================
+
+$  985.98    $  -4.54    Nextcloud - Amazon Web Services - Web hosting
+$  896.60    $ -89.38    Riju - Amazon Web Services - Web hosting
+$  876.60    $ -20.00    Statement of Information - Document filing - Government
+$  871.60    $  -5.00    Fastmail - Email - Business operations
+$  887.60    $  16.00    GitHub Sponsors - Donations - Revenue
+$  882.60    $  -5.00    Railway - Web hosting
+
+Statements of information have to be filed every other year, and they
+charge you for filing them!
+
+=== 2024 February ===============================================
+
+$  862.99    $ -19.61    Linode - Web hosting
+$  773.51    $ -89.48    Riju - Amazon Web Services - Web hosting
+$  768.51    $  -5.00    Fastmail - Email - Business operations
+$  793.73    $  25.22    GitHub Sponsors - Donations - Revenue
+$  788.73    $  -5.00    Railway - Web hosting
+
+Linode here is me helping out the Dominion Strategy Wiki community by
+safely upgrading their server which is hosted there to Ubuntu 22.04
+from Ubuntu 10.04 (really).
+
+=== 2024 March ==================================================
+
+$  777.33    $ -11.40    Linode - Web hosting
+$  692.61    $ -84.72    Riju - Amazon Web Services - Web hosting
+$  687.61    $  -5.00    Fastmail - Email - Business operations
+$  677.61    $ -10.00    PikaPods - Document hosting - Business operations
+$  696.61    $  19.00    GitHub Sponsors - Donations - Revenue
+$  679.97    $ -16.64    Postage - Postal service - Business operations
+$  674.97    $  -5.00    Railway - Web hosting
+
+=== 2024 April ==================================================
+
+$ 1674.97    $1000.00    Capital contribution
+$ 1585.49    $ -89.48    Riju - Amazon Web Services - Web hosting
+$  785.49    $-800.00    Minimum annual tax - Taxes - Government
+$  780.41    $  -5.08    Postage - Postal service - Business operations
+$  775.41    $  -5.00    Fastmail - Email - Business operations
+$  794.41    $  19.00    GitHub Sponsors - Donations - Revenue
+
+Gotta mail in those tax returns. For whatever reason, there's no
+public e-file for businesses.
