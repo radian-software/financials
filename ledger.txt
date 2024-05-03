@@ -105,7 +105,7 @@ are a nice-to-have, not a must.
 
 === 2022 November ===============================================
 
-$  624.80    $  -5.00    Chrome Web Store - Publishing
+$  624.80    $  -5.00    Hypercast - Chrome Web Store - Publishing
 $  619.89    $  -4.91    EIP - Amazon Web Services - Web hosting
 $  619.33    $  -0.56    Nextcloud - Amazon Web Services - Web hosting
 $  526.55    $ -92.78    Riju - Amazon Web Services - Web hosting
@@ -139,7 +139,7 @@ $  448.65    $  -1.18    Tinyku - Amazon Web Services - Web hosting
 $  397.49    $ -51.16    Namecheap - Web hosting
 $ 1397.49    $1000.00    Capital contribution
 $ 1392.49    $  -5.00    Fastmail - Email - Business operations
-$ 1359.49    $ -33.00    Frantech - Web hosting
+$ 1359.49    $ -33.00    Riju - Frantech - Web hosting
 $ 1393.49    $  34.00    GitHub Sponsors - Donations - Revenue
 
 Honestly couldn’t tell you why the EIP bill went down, I really wish
@@ -165,7 +165,7 @@ $ 1383.11    $  -6.82    Nextcloud - Amazon Web Services - Web hosting
 $ 1295.20    $ -87.91    Riju - Amazon Web Services - Web hosting
 $ 1295.10    $  -0.10    Tinyku - Amazon Web Services - Web hosting
 $ 1290.10    $  -5.00    Fastmail - Email - Business operations
-$ 1257.10    $ -33.00    Frantech - Web hosting
+$ 1257.10    $ -33.00    Riju - Frantech - Web hosting
 $ 1293.10    $  36.00    GitHub Sponsors - Donations - Revenue
 
 I’ve added a cron job to turn off Nextcloud automatically now, so
@@ -181,7 +181,7 @@ $ 1288.73    $  -3.71    EIP - Amazon Web Services - Web hosting
 $ 1288.01    $  -0.72    Nextcloud - Amazon Web Services - Web hosting
 $ 1200.26    $ -87.75    Riju - Amazon Web Services - Web hosting
 $ 1195.26    $  -5.00    Fastmail - Email - Business operations
-$ 1162.26    $ -33.00    Frantech - Web hosting
+$ 1162.26    $ -33.00    Riju - Frantech - Web hosting
 $  362.26    $-800.00    Minimum annual tax - Taxes - Government
 $  398.26    $  36.00    GitHub Sponsors - Donations - Revenue
 
@@ -196,7 +196,7 @@ $  394.05    $  -0.87    Nextcloud - Amazon Web Services - Web hosting
 $  313.47    $ -80.58    Riju - Amazon Web Services - Web hosting
 $ 1313.47    $1000.00    Capital contribution
 $ 1308.47    $  -5.00    Fastmail - Email - Business operations
-$ 1275.47    $ -33.00    Frantech - Web hosting
+$ 1275.47    $ -33.00    Riju - Frantech - Web hosting
 $ 1306.47    $  31.00    GitHub Sponsors - Donations - Revenue
 
 === 2023 April ==================================================
@@ -204,9 +204,9 @@ $ 1306.47    $  31.00    GitHub Sponsors - Donations - Revenue
 $ 1302.77    $  -3.70    EIP - Amazon Web Services - Web hosting
 $ 1301.95    $  -0.82    Nextcloud - Amazon Web Services - Web hosting
 $ 1214.31    $ -87.64    Riju - Amazon Web Services - Web hosting
-$ 1206.61    $  -7.70    Frantech - Web hosting
+$ 1206.61    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $ 1201.61    $  -5.00    Fastmail - Email - Business operations
-$ 1168.61    $ -33.00    Frantech - Web hosting
+$ 1168.61    $ -33.00    Riju - Frantech - Web hosting
 $ 1199.61    $  31.00    GitHub Sponsors - Donations - Revenue
 
 There's a new charge from Frantech here from dontbeevilmirror, an
@@ -215,16 +215,16 @@ shut down for the time being.
 
 === 2023 May ====================================================
 
-$ 1177.04    $ -22.57    DigitalOcean - Web hosting
+$ 1177.04    $ -22.57    Riju - DigitalOcean - Web hosting
 $ 1173.44    $  -3.60    EIP - Amazon Web Services - Web hosting
 $ 1172.53    $  -0.91    Nextcloud - Amazon Web Services - Web hosting
 $ 1087.17    $ -85.36    Riju - Amazon Web Services - Web hosting
-$ 1079.47    $  -7.70    Frantech - Web hosting
+$ 1079.47    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $ 1028.31    $ -51.16    Namecheap - Web hosting
 $ 1023.31    $  -5.00    Fastmail - Email - Business operations
-$  990.31    $ -33.00    Frantech - Web hosting
+$  990.31    $ -33.00    Riju - Frantech - Web hosting
 $ 1021.31    $  31.00    GitHub Sponsors - Donations - Revenue
-$  956.31    $ -65.00    DigitalOcean - Web hosting
+$  956.31    $ -65.00    Riju - DigitalOcean - Web hosting
 
 DigitalOcean here for a new Riju re-architecture project, this time
 onto DigitalOcean's managed Kubernetes service. That is also not done
@@ -236,30 +236,30 @@ pipeline.
 $  952.60    $  -3.71    EIP - Amazon Web Services - Web hosting
 $  949.71    $  -2.89    Nextcloud - Amazon Web Services - Web hosting
 $  860.19    $ -89.52    Riju - Amazon Web Services - Web hosting
-$  852.49    $  -7.70    Frantech - Web hosting
+$  852.49    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $  847.49    $  -5.00    Fastmail - Email - Business operations
-$  814.49    $ -33.00    Frantech - Web hosting
+$  814.49    $ -33.00    Riju - Frantech - Web hosting
 $  849.90    $  35.41    GitHub Sponsors - Donations - Revenue
 
 === 2023 July ===================================================
 
-$  784.90    $ -65.00    DigitalOcean - Web hosting
+$  784.90    $ -65.00    Riju - DigitalOcean - Web hosting
 $  781.30    $  -3.60    EIP - Amazon Web Services - Web hosting
 $  778.54    $  -2.76    Nextcloud - Amazon Web Services - Web hosting
 $  691.42    $ -87.12    Riju - Amazon Web Services - Web hosting
-$  683.72    $  -7.70    Frantech - Web hosting
+$  683.72    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $  678.72    $  -5.00    Fastmail - Email - Business operations
-$  645.72    $ -33.00    Frantech - Web hosting
+$  645.72    $ -33.00    Riju - Frantech - Web hosting
 $  712.72    $  67.00    GitHub Sponsors - Donations - Revenue
 
 === 2023 August =================================================
 
 $  707.72    $  -5.00    Railway - Web hosting
-$  642.72    $ -65.00    DigitalOcean - Web hosting
+$  642.72    $ -65.00    Riju - DigitalOcean - Web hosting
 $  639.01    $  -3.71    EIP - Amazon Web Services - Web hosting
 $  636.19    $  -2.82    Nextcloud - Amazon Web Services - Web hosting
 $  546.70    $ -89.49    Riju - Amazon Web Services - Web hosting
-$  539.00    $  -7.70    Frantech - Web hosting
+$  539.00    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $  534.00    $  -5.00    Fastmail - Email - Business operations
 $  565.00    $  31.00    GitHub Sponsors - Donations - Revenue
 $  560.00    $  -5.00    Railway - Web hosting
@@ -272,10 +272,10 @@ charge $5.00/month, whatever.
 
 === 2023 September ==============================================
 
-$  495.00    $ -65.00    DigitalOcean - Web hosting
+$  495.00    $ -65.00    Riju - DigitalOcean - Web hosting
 $  491.87    $  -3.13    Nextcloud - Amazon Web Services - Web hosting
 $  402.38    $ -89.49    Riju - Amazon Web Services - Web hosting
-$  394.68    $  -7.70    Frantech - Web hosting
+$  394.68    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $ 1394.68    $1000.00    Capital contribution
 $ 1389.68    $  -5.00    Fastmail - Email - Business operations
 $ 1420.68    $  31.00    GitHub Sponsors - Donations - Revenue
@@ -283,22 +283,22 @@ $ 1415.68    $  -5.00    Railway - Web hosting
 
 === 2023 October ================================================
 
-$ 1350.68    $ -65.00    DigitalOcean - Web hosting
+$ 1350.68    $ -65.00    Riju - DigitalOcean - Web hosting
 $ 1347.35    $  -3.33    EIP - Amazon Web Services - Web hosting
 $ 1343.00    $  -4.35    Nextcloud - Amazon Web Services - Web hosting
 $ 1255.89    $ -87.11    Riju - Amazon Web Services - Web hosting
-$ 1248.19    $  -7.70    Frantech - Web hosting
+$ 1248.19    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $ 1243.19    $  -5.00    Fastmail - Email - Business operations
 $ 1259.19    $  16.00    GitHub Sponsors - Donations - Revenue
 
 === 2023 November ===============================================
 
 $ 1254.19    $  -5.00    Railway - Web hosting
-$ 1233.50    $ -20.69    DigitalOcean - Web hosting
+$ 1233.50    $ -20.69    Riju - DigitalOcean - Web hosting
 $ 1231.02    $  -2.48    EIP - Amazon Web Services - Web hosting
 $ 1226.96    $  -4.06    Nextcloud - Amazon Web Services - Web hosting
 $ 1137.76    $ -89.20    Riju - Amazon Web Services - Web hosting
-$ 1130.06    $  -7.70    Frantech - Web hosting
+$ 1130.06    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $ 1125.06    $  -5.00    Fastmail - Email - Business operations
 $ 1141.06    $  16.00    GitHub Sponsors - Donations - Revenue
 $ 1143.63    $   2.57    Ko-Fi - Donations - Revenue
@@ -308,7 +308,7 @@ $ 1138.63    $  -5.00    Railway - Web hosting
 
 $ 1134.48    $  -4.15    Nextcloud - Amazon Web Services - Web hosting
 $ 1047.38    $ -87.10    Riju - Amazon Web Services - Web hosting
-$ 1039.68    $  -7.70    Frantech - Web hosting
+$ 1039.68    $  -7.70    dontbeevilmirror - Frantech - Web hosting
 $  984.52    $ -55.16    Namecheap - Web hosting
 $  979.52    $  -5.00    Fastmail - Email - Business operations
 $ 1005.52    $  26.00    GitHub Sponsors - Donations - Revenue
@@ -333,7 +333,7 @@ charge you for filing them!
 
 === 2024 February ===============================================
 
-$  862.99    $ -19.61    Linode - Web hosting
+$  862.99    $ -19.61    Dominion Wiki - Linode - Web hosting
 $  773.51    $ -89.48    Riju - Amazon Web Services - Web hosting
 $  768.51    $  -5.00    Fastmail - Email - Business operations
 $  793.73    $  25.22    GitHub Sponsors - Donations - Revenue
@@ -345,7 +345,7 @@ from Ubuntu 10.04 (really).
 
 === 2024 March ==================================================
 
-$  777.33    $ -11.40    Linode - Web hosting
+$  777.33    $ -11.40    Dominion Wiki - Linode - Web hosting
 $  692.61    $ -84.72    Riju - Amazon Web Services - Web hosting
 $  687.61    $  -5.00    Fastmail - Email - Business operations
 $  677.61    $ -10.00    PikaPods - Document hosting - Business operations

@@ -11,6 +11,12 @@ import re
 import sys
 
 
+def datestr(s: str) -> datetime:
+    if s.count("-") == 1:
+        s += "-01"
+    return datetime.strptime(s, "%Y-%m-%d")
+
+
 @dataclass
 class Note:
     contents: str
@@ -92,7 +98,10 @@ class Transaction:
             if "FATHOM ANALYTICS" in self.description:
                 return ["Analytics", "Fathom Analytics"]
             if "GOOGLE *Chrome" in self.description:
-                return ["Publishing", "Chrome Web Store"]
+                cat = ["Publishing", "Chrome Web Store"]
+                if self.date.year == 2022:
+                    cat.append("Hypercast")
+                return cat
             if self.description == "AWS" or "Amazon web services" in self.description:
                 return ["Web hosting", "Amazon Web Services"]
             if self.description.startswith("AWS: "):
@@ -102,15 +111,27 @@ class Transaction:
                     self.description.removeprefix("AWS: "),
                 ]
             if self.description == "Digitalocean":
-                return ["Web hosting", "DigitalOcean"]
+                cat = ["Web hosting", "DigitalOcean"]
+                if self.date < datestr("2024-01"):
+                    cat.append("Riju")
+                return cat
             if "COMPANY: FRANTECH" in self.description:
-                return ["Web hosting", "Frantech"]
+                cat = ["Web hosting", "Frantech"]
+                if self.date < datestr("2024-01"):
+                    if self.amount == Decimal("-7.70"):
+                        cat.append("dontbeevilmirror")
+                    else:
+                        cat.append("Riju")
+                return cat
             if "RAILWAY.APP" in self.description or "HTTPSRAILWAY" in self.description:
                 return ["Web hosting", "Railway"]
             if "NAME-CHEAP.COM" in self.description:
                 return ["Web hosting", "Namecheap"]
             if "LINODE . AKAMAI" in self.description:
-                return ["Web hosting", "Linode"]
+                cat = ["Web hosting", "Linode"]
+                if self.date < datestr("2024-04"):
+                    cat.append("Dominion Wiki")
+                return cat
             if (
                 self.description == "California Secretary Of State"
                 and self.amount == -20
