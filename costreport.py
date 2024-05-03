@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 
+import dotenv
+
+dotenv.load_dotenv()
+
 import argparse
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from decimal import Decimal
 import json
+import os
 from pathlib import Path
 import re
 import sys
@@ -230,13 +235,9 @@ def read_extra_notes() -> list[Note]:
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--bluevine-txns", required=True)
-    parser.add_argument("--sffire-txns", required=True)
-    args = parser.parse_args()
-    with open(args.bluevine_txns) as f:
+    with open(os.environ["BLUEVINE_TXNS"]) as f:
         bluevine_txns = json.load(f)
-    with open(args.sffire_txns) as f:
+    with open(os.environ["SFFIRE_TXNS"]) as f:
         sffire_txns = json.load(f)["txns"]
     txns: list[Transaction] = []
     txns.extend(map(Transaction.from_bluevine, bluevine_txns))
@@ -250,6 +251,12 @@ def main():
         notes_dict[note.date.year, note.date.month].append(note)
     running_balance = Decimal("0.00")
     last_month = None
+    lines = []
+
+    def put(line):
+        print(line)
+        lines.append(line)
+
     for full_txn in txns:
         if full_txn.should_ignore:
             continue
@@ -258,23 +265,26 @@ def main():
                 continue
             cur_month = txn.date.year, txn.date.month
             if cur_month != last_month:
-                print()
+                put("")
                 month_str = txn.date.strftime("%Y %B")
                 padding = "=" * (60 - len(month_str))
                 if last_notes := notes_dict[last_month]:
                     for note in last_notes:
-                        print(note.contents)
-                        print()
-                print(f"=== {month_str} {padding}")
-                print()
+                        put(note.contents)
+                        put("")
+                put(f"=== {month_str} {padding}")
+                put("")
                 last_month = cur_month
             running_balance += txn.amount
             cat_str = " - ".join(reversed(txn.category))
-            print(f"${running_balance:8}    ${txn.amount:7}    {cat_str}")
+            put(f"${running_balance:8}    ${txn.amount:7}    {cat_str}")
     if last_notes := notes_dict[last_month]:
-        print()
+        put("")
         for note in last_notes:
-            print(note.contents)
+            put(note.contents)
+    with open("ledger.txt", "w") as f:
+        f.write("\n".join(lines))
+        f.write("\n")
 
 
 if __name__ == "__main__":

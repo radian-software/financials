@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+import dotenv
+
+dotenv.load_dotenv()
+
 import argparse
 import collections
 import csv
