@@ -257,12 +257,14 @@ def main():
         print(line)
         lines.append(line)
 
+    split_txns = []
     for full_txn in txns:
         if full_txn.should_ignore:
             continue
         for txn in full_txn.split():
             if txn.should_ignore:
                 continue
+            split_txns.append(txn)
             cur_month = txn.date.year, txn.date.month
             if cur_month != last_month:
                 put("")
@@ -276,13 +278,38 @@ def main():
                 put("")
                 last_month = cur_month
             running_balance += txn.amount
-            cat_str = " - ".join(reversed(txn.category))
+            cat_str = " - ".join(txn.category)
             put(f"${running_balance:8}    ${txn.amount:7}    {cat_str}")
     if last_notes := notes_dict[last_month]:
         put("")
         for note in last_notes:
             put(note.contents)
     with open("ledger.txt", "w") as f:
+        f.write("\n".join(lines))
+        f.write("\n")
+    print()
+    lines = []
+    put("=== Spending and revenue category totals ========================")
+    put("")
+    put("    [ sorted by category ]")
+    put("")
+    all_cats = set()
+    for txn in split_txns:
+        all_cats.add(tuple(txn.category))
+    subtotals = {}
+    for cat in sorted(all_cats):
+        subtotal = sum(txn.amount for txn in split_txns if txn.category == list(cat))
+        subtotals[cat] = subtotal
+        cat_str = " - ".join(cat)
+        put(f"${subtotal:8}    {cat_str}")
+    put("")
+    put("    [ sorted by amount ]")
+    put("")
+    for cat in sorted(all_cats, key=lambda cat: subtotals[cat]):
+        subtotal = subtotals[cat]
+        cat_str = " - ".join(cat)
+        put(f"${subtotal:8}    {cat_str}")
+    with open("categories.txt", "w") as f:
         f.write("\n".join(lines))
         f.write("\n")
 
