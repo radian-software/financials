@@ -144,6 +144,16 @@ class Transaction:
                 return ["Government", "Document filing", "Statement of Information"]
             if "COMPANY: FRANCHISE TAX BO" in self.description and self.amount == -800:
                 return ["Government", "Taxes", "Minimum annual tax"]
+            if (
+                "COMPANY: FRANCHISE TAX BO" in self.description
+                and self.amount == Decimal("-22.25")
+            ):
+                return ["Government", "Taxes", "California FTB fine"]
+            if (
+                "COMPANY: FRANCHISE TAX BO" in self.description
+                and self.amount == Decimal("-881.41")
+            ):
+                return ["Government", "Taxes", "California FTB fine"]
         if self.amount > 0:
             if "Interest earned" in self.description:
                 return ["Business operations", "Banking", "Bank account interest"]

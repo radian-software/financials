@@ -361,6 +361,49 @@ $  785.49    $-800.00    Government - Taxes - Minimum annual tax
 $  780.41    $  -5.08    Business operations - Postal service - Postage
 $  775.41    $  -5.00    Business operations - Email - Fastmail
 $  794.41    $  19.00    Revenue - Donations - GitHub Sponsors
+$  789.41    $  -5.00    Web hosting - Railway
 
 Gotta mail in those tax returns. For whatever reason, there's no
 public e-file for businesses.
+
+=== 2024 May ====================================================
+
+$  702.31    $ -87.10    Web hosting - Amazon Web Services - Riju
+$  680.06    $ -22.25    Government - Taxes - California FTB fine
+$  624.90    $ -55.16    Web hosting - Namecheap
+$  619.90    $  -5.00    Business operations - Email - Fastmail
+$  638.90    $  19.00    Revenue - Donations - GitHub Sponsors
+$  633.90    $  -5.00    Web hosting - Railway
+
+This $22.25 thing is because of some incorrect paperwork. The form I
+mailed in with my 2022 tax return incorrectly said that my $800
+minimum payment was for 2022 instead of 2023 as it actually was, even
+though there was no payment due in 2022, so they said "sure, we'll
+take that non-required payment for 2022, and fine you for paying it
+late even though it wasn't due in the first place". I'm still working
+on getting this sorted out and will ask for a refund once the revised
+paperwork is processed.
+
+=== 2024 June ===================================================
+
+$  544.42    $ -89.48    Web hosting - Amazon Web Services - Riju
+$  539.42    $  -5.00    Business operations - Email - Fastmail
+$ 1539.42    $1000.00    Capital contribution
+$ 1529.42    $ -10.00    Business operations - Document hosting - PikaPods
+$  648.01    $-881.41    Government - Taxes - California FTB fine
+$  667.01    $  19.00    Revenue - Donations - GitHub Sponsors
+$  662.01    $  -5.00    Web hosting - Railway
+
+Okay so $881.41, this is an even more egregious paperwork issue with
+the FTB. Apparently not only did they claim an erroneous late fee on
+my 2023 payment because they thought it was for 2022 despite there
+being no tax that year, they also then claimed I hadn't paid for 2023,
+and told me I needed to pay them again, with a second(!!) late fine.
+I'm definitely going to be fighting to get this back, but at time of
+writing that dispute is still in process.
+
+=== 2024 July ===================================================
+
+$  574.91    $ -87.10    Web hosting - Amazon Web Services - Riju
+$  569.91    $  -5.00    Business operations - Email - Fastmail
+$  624.91    $  55.00    Revenue - Donations - GitHub Sponsors
