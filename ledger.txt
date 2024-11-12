@@ -407,3 +407,32 @@ writing that dispute is still in process.
 $  574.91    $ -87.10    Web hosting - Amazon Web Services - Riju
 $  569.91    $  -5.00    Business operations - Email - Fastmail
 $  624.91    $  55.00    Revenue - Donations - GitHub Sponsors
+$  619.91    $  -5.00    Web hosting - Railway
+
+=== 2024 August =================================================
+
+$  530.43    $ -89.48    Web hosting - Amazon Web Services - Riju
+$  525.43    $  -5.00    Business operations - Email - Fastmail
+$  544.43    $  19.00    Revenue - Donations - GitHub Sponsors
+
+=== 2024 September ==============================================
+
+$  539.43    $  -5.00    Web hosting - Railway
+$  449.95    $ -89.48    Web hosting - Amazon Web Services - Riju
+$ 1449.95    $1000.00    Capital contribution
+$ 1444.95    $  -5.00    Business operations - Email - Fastmail
+$ 1507.76    $  62.81    Revenue - Donations - Ko-Fi
+$ 1497.76    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1513.76    $  16.00    Revenue - Donations - GitHub Sponsors
+$ 1508.76    $  -5.00    Web hosting - Railway
+
+=== 2024 October ================================================
+
+$ 1422.15    $ -86.61    Web hosting - Amazon Web Services - Riju
+$ 1417.15    $  -5.00    Business operations - Email - Fastmail
+$ 1433.15    $  16.00    Revenue - Donations - GitHub Sponsors
+$ 1428.15    $  -5.00    Web hosting - Railway
+
+=== 2024 November ===============================================
+
+$ 1338.86    $ -89.29    Web hosting - Amazon Web Services - Riju
