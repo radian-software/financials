@@ -7,8 +7,8 @@ $   -5.00    Business operations - Banking - Account opening
 $    2.43    Business operations - Banking - Bank account interest
 $   -2.00    Business operations - Banking - Temporary checks
 $   -5.18    Business operations - Document hosting - CryptPad
-$  -40.00    Business operations - Document hosting - PikaPods
-$ -130.00    Business operations - Email - Fastmail
+$  -50.00    Business operations - Document hosting - PikaPods
+$ -140.00    Business operations - Email - Fastmail
 $  -64.64    Business operations - Email - Google Workspace
 $   -1.10    Business operations - Postal service - Change of address
 $  -21.72    Business operations - Postal service - Postage
@@ -18,46 +18,46 @@ $ -903.66    Government - Taxes - California FTB fine
 $-1600.00    Government - Taxes - Minimum annual tax
 $ -100.00    Intellectual property
 $   -5.00    Publishing - Chrome Web Store - Hypercast
-$  794.21    Revenue - Donations - GitHub Sponsors
-$   65.38    Revenue - Donations - Ko-Fi
+$  836.21    Revenue - Donations - GitHub Sponsors
+$  128.19    Revenue - Donations - Ko-Fi
 $  -52.59    Web hosting - Amazon Web Services - EIP
 $  -45.33    Web hosting - Amazon Web Services - Nextcloud
-$-2352.97    Web hosting - Amazon Web Services - Riju
+$-2529.16    Web hosting - Amazon Web Services - Riju
 $  -16.50    Web hosting - Amazon Web Services - Tinyku
 $ -368.26    Web hosting - DigitalOcean - Riju
 $ -264.00    Web hosting - Frantech - Riju
 $  -69.30    Web hosting - Frantech - dontbeevilmirror
 $  -31.01    Web hosting - Linode - Dominion Wiki
-$ -258.80    Web hosting - Namecheap
-$  -82.10    Web hosting - Railway
+$ -318.96    Web hosting - Namecheap
+$  -92.10    Web hosting - Railway
 
     [ sorted by amount ]
 
-$-2352.97    Web hosting - Amazon Web Services - Riju
+$-2529.16    Web hosting - Amazon Web Services - Riju
 $-1600.00    Government - Taxes - Minimum annual tax
 $ -903.66    Government - Taxes - California FTB fine
 $ -368.26    Web hosting - DigitalOcean - Riju
+$ -318.96    Web hosting - Namecheap
 $ -264.00    Web hosting - Frantech - Riju
-$ -258.80    Web hosting - Namecheap
-$ -130.00    Business operations - Email - Fastmail
+$ -140.00    Business operations - Email - Fastmail
 $ -100.00    Intellectual property
+$  -92.10    Web hosting - Railway
 $  -84.00    Analytics - Fathom Analytics
-$  -82.10    Web hosting - Railway
 $  -69.30    Web hosting - Frantech - dontbeevilmirror
 $  -64.64    Business operations - Email - Google Workspace
 $  -52.59    Web hosting - Amazon Web Services - EIP
+$  -50.00    Business operations - Document hosting - PikaPods
 $  -45.33    Web hosting - Amazon Web Services - Nextcloud
-$  -40.00    Business operations - Document hosting - PikaPods
 $  -31.01    Web hosting - Linode - Dominion Wiki
 $  -21.72    Business operations - Postal service - Postage
 $  -20.00    Government - Document filing - Statement of Information
 $  -16.50    Web hosting - Amazon Web Services - Tinyku
 $   -5.18    Business operations - Document hosting - CryptPad
-$   -5.00    Publishing - Chrome Web Store - Hypercast
 $   -5.00    Business operations - Banking - Account opening
+$   -5.00    Publishing - Chrome Web Store - Hypercast
 $   -2.00    Business operations - Banking - Temporary checks
 $   -1.10    Business operations - Postal service - Change of address
 $    2.43    Business operations - Banking - Bank account interest
-$   65.38    Revenue - Donations - Ko-Fi
-$  794.21    Revenue - Donations - GitHub Sponsors
+$  128.19    Revenue - Donations - Ko-Fi
+$  836.21    Revenue - Donations - GitHub Sponsors
 $ 7000.00    Capital contribution

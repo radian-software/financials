@@ -436,3 +436,20 @@ $ 1428.15    $  -5.00    Web hosting - Railway
 === 2024 November ===============================================
 
 $ 1338.86    $ -89.29    Web hosting - Amazon Web Services - Riju
+$ 1333.86    $  -5.00    Business operations - Email - Fastmail
+$ 1354.86    $  21.00    Revenue - Donations - GitHub Sponsors
+
+=== 2024 December ===============================================
+
+$ 1349.86    $  -5.00    Web hosting - Railway
+$ 1262.86    $ -87.00    Web hosting - Amazon Web Services - Riju
+$ 1202.70    $ -60.16    Web hosting - Namecheap
+$ 1265.51    $  62.81    Revenue - Donations - Ko-Fi
+$ 1260.51    $  -5.00    Business operations - Email - Fastmail
+$ 1250.51    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1271.51    $  21.00    Revenue - Donations - GitHub Sponsors
+
+=== 2025 January ================================================
+
+$ 1266.51    $  -5.00    Web hosting - Railway
+$ 1177.32    $ -89.19    Web hosting - Amazon Web Services - Riju
