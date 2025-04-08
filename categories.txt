@@ -7,49 +7,51 @@ $   -5.00    Business operations - Banking - Account opening
 $    2.43    Business operations - Banking - Bank account interest
 $   -2.00    Business operations - Banking - Temporary checks
 $   -5.18    Business operations - Document hosting - CryptPad
-$  -50.00    Business operations - Document hosting - PikaPods
-$ -140.00    Business operations - Email - Fastmail
+$  -60.00    Business operations - Document hosting - PikaPods
+$ -155.00    Business operations - Email - Fastmail
 $  -64.64    Business operations - Email - Google Workspace
 $   -1.10    Business operations - Postal service - Change of address
-$  -21.72    Business operations - Postal service - Postage
-$ 7000.00    Capital contribution
+$  -41.64    Business operations - Postal service - Postage
+$ -125.00    Business operations - Registered agent
+$ 8000.00    Capital contribution
 $  -20.00    Government - Document filing - Statement of Information
 $ -903.66    Government - Taxes - California FTB fine
-$-1600.00    Government - Taxes - Minimum annual tax
+$-2400.00    Government - Taxes - Minimum annual tax
 $ -100.00    Intellectual property
 $   -5.00    Publishing - Chrome Web Store - Hypercast
-$  836.21    Revenue - Donations - GitHub Sponsors
+$  899.21    Revenue - Donations - GitHub Sponsors
 $  128.19    Revenue - Donations - Ko-Fi
 $  -52.59    Web hosting - Amazon Web Services - EIP
 $  -45.33    Web hosting - Amazon Web Services - Nextcloud
-$-2529.16    Web hosting - Amazon Web Services - Riju
+$-2789.76    Web hosting - Amazon Web Services - Riju
 $  -16.50    Web hosting - Amazon Web Services - Tinyku
 $ -368.26    Web hosting - DigitalOcean - Riju
 $ -264.00    Web hosting - Frantech - Riju
 $  -69.30    Web hosting - Frantech - dontbeevilmirror
 $  -31.01    Web hosting - Linode - Dominion Wiki
 $ -318.96    Web hosting - Namecheap
-$  -92.10    Web hosting - Railway
+$ -107.10    Web hosting - Railway
 
     [ sorted by amount ]
 
-$-2529.16    Web hosting - Amazon Web Services - Riju
-$-1600.00    Government - Taxes - Minimum annual tax
+$-2789.76    Web hosting - Amazon Web Services - Riju
+$-2400.00    Government - Taxes - Minimum annual tax
 $ -903.66    Government - Taxes - California FTB fine
 $ -368.26    Web hosting - DigitalOcean - Riju
 $ -318.96    Web hosting - Namecheap
 $ -264.00    Web hosting - Frantech - Riju
-$ -140.00    Business operations - Email - Fastmail
+$ -155.00    Business operations - Email - Fastmail
+$ -125.00    Business operations - Registered agent
+$ -107.10    Web hosting - Railway
 $ -100.00    Intellectual property
-$  -92.10    Web hosting - Railway
 $  -84.00    Analytics - Fathom Analytics
 $  -69.30    Web hosting - Frantech - dontbeevilmirror
 $  -64.64    Business operations - Email - Google Workspace
+$  -60.00    Business operations - Document hosting - PikaPods
 $  -52.59    Web hosting - Amazon Web Services - EIP
-$  -50.00    Business operations - Document hosting - PikaPods
 $  -45.33    Web hosting - Amazon Web Services - Nextcloud
+$  -41.64    Business operations - Postal service - Postage
 $  -31.01    Web hosting - Linode - Dominion Wiki
-$  -21.72    Business operations - Postal service - Postage
 $  -20.00    Government - Document filing - Statement of Information
 $  -16.50    Web hosting - Amazon Web Services - Tinyku
 $   -5.18    Business operations - Document hosting - CryptPad
@@ -59,5 +61,5 @@ $   -2.00    Business operations - Banking - Temporary checks
 $   -1.10    Business operations - Postal service - Change of address
 $    2.43    Business operations - Banking - Bank account interest
 $  128.19    Revenue - Donations - Ko-Fi
-$  836.21    Revenue - Donations - GitHub Sponsors
-$ 7000.00    Capital contribution
+$  899.21    Revenue - Donations - GitHub Sponsors
+$ 8000.00    Capital contribution

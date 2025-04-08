@@ -94,7 +94,10 @@ class Transaction:
                 return ["Business operations", "Email", "Google Workspace"]
             if "USPS CHANGE OF ADDRESS" in self.description:
                 return ["Business operations", "Postal service", "Change of address"]
-            if "POS Card purchase USPS PO" in self.description:
+            if (
+                "POS Card purchase USPS PO" in self.description
+                or "U.S. Post Office" in self.description
+            ):
                 return ["Business operations", "Postal service", "Postage"]
             if "CRYPTPAD-PERSONAL" in self.description:
                 return ["Business operations", "Document hosting", "CryptPad"]
@@ -154,6 +157,8 @@ class Transaction:
                 and self.amount == Decimal("-881.41")
             ):
                 return ["Government", "Taxes", "California FTB fine"]
+            if "corporate filings llc" in self.description.lower():
+                return ["Business operations", "Registered agent"]
         if self.amount > 0:
             if "Interest earned" in self.description:
                 return ["Business operations", "Banking", "Bank account interest"]
@@ -169,6 +174,8 @@ class Transaction:
                 return ["Revenue", "Donations", "GitHub Sponsors"]
             if "COMPANY: STRIPE" in self.description:
                 return ["Revenue", "Donations", "Ko-Fi"]
+            if "corporate filings llc" in self.description.lower():
+                return ["Business operations", "Registered agent"]
         raise RuntimeError(f"Uncategorized transaction: {self}")
 
     def split(self):

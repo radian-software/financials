@@ -453,3 +453,33 @@ $ 1271.51    $  21.00    Revenue - Donations - GitHub Sponsors
 
 $ 1266.51    $  -5.00    Web hosting - Railway
 $ 1177.32    $ -89.19    Web hosting - Amazon Web Services - Riju
+$ 1172.32    $  -5.00    Business operations - Email - Fastmail
+$ 2172.32    $1000.00    Capital contribution
+$ 2027.32    $-145.00    Business operations - Registered agent
+$ 2048.32    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 2068.32    $  20.00    Business operations - Registered agent
+
+Got a refund on an accidentally purchased extra feature for the
+registered agent service (from Northwest).
+
+=== 2025 February ===============================================
+
+$ 2063.32    $  -5.00    Web hosting - Railway
+$ 1974.13    $ -89.19    Web hosting - Amazon Web Services - Riju
+$ 1964.13    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1959.13    $  -5.00    Business operations - Email - Fastmail
+$ 1980.13    $  21.00    Revenue - Donations - GitHub Sponsors
+
+=== 2025 March ==================================================
+
+$ 1975.13    $  -5.00    Web hosting - Railway
+$ 1892.89    $ -82.24    Web hosting - Amazon Web Services - Riju
+$ 1872.97    $ -19.92    Business operations - Postal service - Postage
+$ 1072.97    $-800.00    Government - Taxes - Minimum annual tax
+$ 1067.97    $  -5.00    Business operations - Email - Fastmail
+$ 1088.97    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1083.97    $  -5.00    Web hosting - Railway
+
+=== 2025 April ==================================================
+
+$  994.80    $ -89.17    Web hosting - Amazon Web Services - Riju
