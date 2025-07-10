@@ -131,7 +131,11 @@ class Transaction:
                     else:
                         cat.append("Riju")
                 return cat
-            if "RAILWAY.APP" in self.description or "HTTPSRAILWAY" in self.description:
+            if (
+                "RAILWAY.APP" in self.description
+                or "HTTPSRAILWAY" in self.description
+                or "RAILWAY.COM" in self.description
+            ):
                 return ["Web hosting", "Railway"]
             if "NAME-CHEAP.COM" in self.description:
                 return ["Web hosting", "Namecheap"]
@@ -159,6 +163,8 @@ class Transaction:
                 return ["Government", "Taxes", "California FTB fine"]
             if "corporate filings llc" in self.description.lower():
                 return ["Business operations", "Registered agent"]
+            if "Callcentric" in self.description:
+                return ["Business operations", "Phone", "Callcentric"]
         if self.amount > 0:
             if "Interest earned" in self.description:
                 return ["Business operations", "Banking", "Bank account interest"]
@@ -174,8 +180,12 @@ class Transaction:
                 return ["Revenue", "Donations", "GitHub Sponsors"]
             if "COMPANY: STRIPE" in self.description:
                 return ["Revenue", "Donations", "Ko-Fi"]
+            if "COMPANY: PAYPAL" in self.description and self.serial in {223}:
+                return ["Revenue", "Donations", "PayPal"]
             if "corporate filings llc" in self.description.lower():
                 return ["Business operations", "Registered agent"]
+            if self.amount == Decimal("859.82") and self.serial == 234:
+                return ["Government", "Taxes", "California FTB fine"]
         raise RuntimeError(f"Uncategorized transaction: {self}")
 
     def split(self):

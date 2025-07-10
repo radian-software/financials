@@ -483,3 +483,32 @@ $ 1083.97    $  -5.00    Web hosting - Railway
 === 2025 April ==================================================
 
 $  994.80    $ -89.17    Web hosting - Amazon Web Services - Riju
+$  984.80    $ -10.00    Business operations - Document hosting - PikaPods
+$  979.80    $  -5.00    Business operations - Email - Fastmail
+$ 1027.86    $  48.06    Revenue - Donations - PayPal
+$ 1048.86    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1043.86    $  -5.00    Web hosting - Railway
+
+=== 2025 May ====================================================
+
+$  956.79    $ -87.07    Web hosting - Amazon Web Services - Riju
+$  896.63    $ -60.16    Web hosting - Namecheap
+$  891.63    $  -5.00    Business operations - Email - Fastmail
+$  912.63    $  21.00    Revenue - Donations - GitHub Sponsors
+
+=== 2025 June ===================================================
+
+$  907.63    $  -5.00    Web hosting - Railway
+$  818.15    $ -89.48    Web hosting - Amazon Web Services - Riju
+$  808.15    $ -10.00    Business operations - Document hosting - PikaPods
+$  802.84    $  -5.31    Business operations - Phone - Callcentric
+$ 1662.66    $ 859.82    Government - Taxes - California FTB fine
+$ 1657.66    $  -5.00    Business operations - Phone - Callcentric
+$ 1652.66    $  -5.00    Business operations - Email - Fastmail
+$ 1673.66    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1736.47    $  62.81    Revenue - Donations - Ko-Fi
+$ 1731.47    $  -5.00    Web hosting - Railway
+
+=== 2025 July ===================================================
+
+$ 1644.43    $ -87.04    Web hosting - Amazon Web Services - Riju
