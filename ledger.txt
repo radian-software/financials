@@ -509,6 +509,49 @@ $ 1673.66    $  21.00    Revenue - Donations - GitHub Sponsors
 $ 1736.47    $  62.81    Revenue - Donations - Ko-Fi
 $ 1731.47    $  -5.00    Web hosting - Railway
 
+Got our refund from the FTB for that erroneous fine by fixing the tax
+return! Or at least most of it, I still have to ask for the rest back.
+
+I've also started paying for a phone plan (a very cheap one, $2/month)
+in order to have an official business number for public record
+documents and forms that insist on a "customer support" phone number,
+as it's really not appropriate to use a personal cell phone for that.
+
 === 2025 July ===================================================
 
 $ 1644.43    $ -87.04    Web hosting - Amazon Web Services - Riju
+$ 1639.43    $  -5.00    Business operations - Email - Fastmail
+$ 1595.66    $ -43.77    Web hosting - Porkbun
+$ 1551.89    $ -43.77    Web hosting - Porkbun
+$ 1608.89    $  57.00    Revenue - Donations - GitHub Sponsors
+$ 1602.89    $  -6.00    Business operations - Phone - Callcentric
+$ 1597.89    $  -5.00    Web hosting - Railway
+
+I've migrated from Namecheap to Porkbun because of the former's
+numerous technical issues and egregiously bad support.
+
+=== 2025 August =================================================
+
+$ 1508.41    $ -89.48    Web hosting - Amazon Web Services - Riju
+$ 1498.41    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1493.82    $  -4.59    Web hosting - Hetzner
+$ 1488.82    $  -5.00    Business operations - Email - Fastmail
+$ 1509.82    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1504.82    $  -5.00    Business operations - Phone - Callcentric
+
+The Hetzner box is running an instance of BreezeWiki. You can use it
+for yourself: https://breeze.radian.codes/
+
+=== 2025 September ==============================================
+
+$ 1499.82    $  -5.00    Web hosting - Railway
+$ 1410.34    $ -89.48    Web hosting - Amazon Web Services - Riju
+$ 1405.34    $  -5.00    Business operations - Email - Fastmail
+$ 1426.34    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1416.34    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1411.34    $  -5.00    Web hosting - Railway
+
+=== 2025 October ================================================
+
+$ 1324.24    $ -87.10    Web hosting - Amazon Web Services - Riju
+$ 1315.06    $  -9.18    Web hosting - Hetzner

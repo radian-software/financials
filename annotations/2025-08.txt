@@ -1,0 +1,2 @@
+The Hetzner box is running an instance of BreezeWiki. You can use it
+for yourself: https://breeze.radian.codes/

@@ -1,0 +1,2 @@
+I've migrated from Namecheap to Porkbun because of the former's
+numerous technical issues and egregiously bad support.

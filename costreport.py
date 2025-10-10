@@ -163,8 +163,12 @@ class Transaction:
                 return ["Government", "Taxes", "California FTB fine"]
             if "corporate filings llc" in self.description.lower():
                 return ["Business operations", "Registered agent"]
-            if "Callcentric" in self.description:
+            if "callcentric" in self.description.lower():
                 return ["Business operations", "Phone", "Callcentric"]
+            if "PORKBUN.COM" in self.description:
+                return ["Web hosting", "Porkbun"]
+            if "HETZNER ONLINE" in self.description:
+                return ["Web hosting", "Hetzner"]
         if self.amount > 0:
             if "Interest earned" in self.description:
                 return ["Business operations", "Banking", "Bank account interest"]
