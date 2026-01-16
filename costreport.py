@@ -88,7 +88,12 @@ class Transaction:
                 return ["Business operations", "Banking", "Account opening"]
             if "Temporary Checks" in self.description:
                 return ["Business operations", "Banking", "Temporary checks"]
-            if "fastmail pty ltd" in self.description.lower():
+            if (
+                "fastmail" in self.description.lower()
+                # My bank decided in October 2025 to reclassify
+                # Fastmail as a toothpaste company??!!??!?!?
+                or "hismile pty ltd" in self.description.lower()
+            ):
                 return ["Business operations", "Email", "Fastmail"]
             if re.search(r"(GOOGLE|Google LLC)[* ]GSUITE", self.description):
                 return ["Business operations", "Email", "Google Workspace"]

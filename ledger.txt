@@ -555,3 +555,33 @@ $ 1411.34    $  -5.00    Web hosting - Railway
 
 $ 1324.24    $ -87.10    Web hosting - Amazon Web Services - Riju
 $ 1315.06    $  -9.18    Web hosting - Hetzner
+$ 1310.06    $  -5.00    Business operations - Email - Fastmail
+$ 1331.06    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1301.06    $ -30.00    Business operations - Phone - Callcentric
+
+=== 2025 November ===============================================
+
+$ 1296.06    $  -5.00    Web hosting - Railway
+$ 1206.63    $ -89.43    Web hosting - Amazon Web Services - Riju
+$ 1201.63    $  -5.00    Business operations - Email - Fastmail
+$ 1181.63    $ -20.00    Government - Document filing - Statement of Information
+$ 1222.63    $  41.00    Revenue - Donations - GitHub Sponsors
+$ 1212.63    $ -10.00    Business operations - Document hosting - PikaPods
+
+=== 2025 December ===============================================
+
+$ 1207.63    $  -5.00    Web hosting - Railway
+$ 1185.14    $ -22.49    Web hosting - Amazon Web Services - Riju
+$ 1154.18    $ -30.96    Web hosting - Hetzner
+$ 1149.38    $  -4.80    Business operations - Email - Fastmail
+$ 1170.38    $  21.00    Revenue - Donations - GitHub Sponsors
+$ 1165.38    $  -5.00    Web hosting - Railway
+
+AWS account closed, Riju moved to Hetzner. It's way cheaper. Don't
+know what I did wrong when I calculated the pricing years earlier and
+concluded there weren't cheaper options.
+
+=== 2026 January ================================================
+
+$ 1137.40    $ -27.98    Web hosting - Hetzner
+$ 1137.12    $  -0.28    Web hosting - Hetzner
