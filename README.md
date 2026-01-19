@@ -13,3 +13,12 @@ which I update on more or less a quarterly basis:
 In [a subdirectory](aws-by-month) you can find detailed cost
 breakdowns of AWS spending for each month. The ledger also has
 discussion of any interesting or confusing facts about the spending.
+
+## Donation methods
+
+Please see the sidebar for this repo. Note that Patreon has
+implemented an asinine new policy, which they refuse to budge on,
+where they automatically deactivate your page *every single month*
+unless you log in *every single month* to edit it. As such, if you'd
+like to donate via Patreon, then please let me know, and I can
+re-activate the page.
