@@ -106,8 +106,10 @@ class Transaction:
                 return ["Business operations", "Postal service", "Postage"]
             if "CRYPTPAD-PERSONAL" in self.description:
                 return ["Business operations", "Document hosting", "CryptPad"]
-            if "PIKAPODS.COM" in self.description:
+            if "PIKAPODS.COM" in self.description.upper():
                 return ["Business operations", "Document hosting", "PikaPods"]
+            if "BACKBLAZE" in self.description.upper():
+                return ["Business operations", "Document hosting", "Backblaze"]
             if "FATHOM ANALYTICS" in self.description:
                 return ["Analytics", "Fathom Analytics"]
             if "GOOGLE *Chrome" in self.description:
@@ -139,7 +141,7 @@ class Transaction:
             if (
                 "RAILWAY.APP" in self.description
                 or "HTTPSRAILWAY" in self.description
-                or "RAILWAY.COM" in self.description
+                or "RAILWAY.COM" in self.description.upper()
             ):
                 return ["Web hosting", "Railway"]
             if "NAME-CHEAP.COM" in self.description:
@@ -172,7 +174,7 @@ class Transaction:
                 return ["Business operations", "Phone", "Callcentric"]
             if "PORKBUN.COM" in self.description:
                 return ["Web hosting", "Porkbun"]
-            if "HETZNER ONLINE" in self.description:
+            if "HETZNER ONLINE" in self.description.upper():
                 return ["Web hosting", "Hetzner"]
         if self.amount > 0:
             if "Interest earned" in self.description:

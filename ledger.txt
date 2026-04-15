@@ -585,3 +585,36 @@ concluded there weren't cheaper options.
 
 $ 1137.40    $ -27.98    Web hosting - Hetzner
 $ 1137.12    $  -0.28    Web hosting - Hetzner
+$ 1131.12    $  -6.00    Business operations - Email - Fastmail
+$ 1006.12    $-125.00    Business operations - Registered agent
+$  996.12    $ -10.00    Business operations - Document hosting - PikaPods
+$  996.02    $  -0.10    Business operations - Document hosting - PikaPods
+$ 1015.02    $  19.00    Revenue - Donations - GitHub Sponsors
+
+=== 2026 February ===============================================
+
+$ 1010.02    $  -5.00    Web hosting - Railway
+$  982.04    $ -27.98    Web hosting - Hetzner
+$  981.76    $  -0.28    Web hosting - Hetzner
+$  975.76    $  -6.00    Business operations - Email - Fastmail
+$  994.76    $  19.00    Revenue - Donations - GitHub Sponsors
+
+=== 2026 March ==================================================
+
+$  989.76    $  -5.00    Web hosting - Railway
+$  189.76    $-800.00    Government - Taxes - Minimum annual tax
+$ 1189.76    $1000.00    Capital contribution
+$ 1170.77    $ -18.99    Business operations - Postal service - Postage
+$ 1142.79    $ -27.98    Web hosting - Hetzner
+$ 1142.51    $  -0.28    Web hosting - Hetzner
+$ 1136.51    $  -6.00    Business operations - Email - Fastmail
+$ 1126.51    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1126.41    $  -0.10    Business operations - Document hosting - PikaPods
+$ 1145.41    $  19.00    Revenue - Donations - GitHub Sponsors
+$ 1140.41    $  -5.00    Web hosting - Railway
+
+=== 2026 April ==================================================
+
+$ 1139.76    $  -0.65    Business operations - Document hosting - Backblaze
+$ 1111.78    $ -27.98    Web hosting - Hetzner
+$ 1111.50    $  -0.28    Web hosting - Hetzner
