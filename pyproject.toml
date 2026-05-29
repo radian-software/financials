@@ -6,8 +6,8 @@ authors = ["Radian LLC <contact+riju@radian.codes>"]
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.9"
-python-dotenv = "^0.19.2"
+python = "^3.10"
+python-dotenv = "^1.2.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
