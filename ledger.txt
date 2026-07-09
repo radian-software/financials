@@ -618,3 +618,29 @@ $ 1140.41    $  -5.00    Web hosting - Railway
 $ 1139.76    $  -0.65    Business operations - Document hosting - Backblaze
 $ 1111.78    $ -27.98    Web hosting - Hetzner
 $ 1111.50    $  -0.28    Web hosting - Hetzner
+$ 1105.50    $  -6.00    Business operations - Email - Fastmail
+$ 1124.50    $  19.00    Revenue - Donations - GitHub Sponsors
+$ 1119.50    $  -5.00    Web hosting - Railway
+
+=== 2026 May ====================================================
+
+$ 1081.02    $ -38.48    Web hosting - Hetzner
+$ 1080.64    $  -0.38    Web hosting - Hetzner
+$ 1070.64    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1070.54    $  -0.10    Business operations - Document hosting - PikaPods
+$ 1064.54    $  -6.00    Business operations - Email - Fastmail
+$ 1083.54    $  19.00    Revenue - Donations - GitHub Sponsors
+
+=== 2026 June ===================================================
+
+$ 1039.71    $ -43.83    Web hosting - Hetzner
+$ 1039.27    $  -0.44    Web hosting - Hetzner
+$ 1033.27    $  -6.00    Business operations - Email - Fastmail
+$ 1052.27    $  19.00    Revenue - Donations - GitHub Sponsors
+$ 1042.27    $ -10.00    Business operations - Document hosting - PikaPods
+$ 1042.17    $  -0.10    Business operations - Document hosting - PikaPods
+
+=== 2026 July ===================================================
+
+$ 1041.72    $  -0.45    Web hosting - Hetzner
+$  996.65    $ -45.07    Web hosting - Hetzner
